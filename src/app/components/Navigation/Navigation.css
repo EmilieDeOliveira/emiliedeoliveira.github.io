@@ -1,0 +1,49 @@
+.logo {
+  text-decoration: none;
+}
+
+.transparent {
+  background-color: transparent;
+  transition: .5s padding-top ease-out;
+  transition: .5s padding-bottom ease-out;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.notTransparent {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: .5s padding-top ease-out;
+  transition: .5s padding-bottom ease-out;
+  background-color: #fff;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, .1);
+}
+
+.transparent a {
+  color: white;
+}
+
+.transparent .active {
+  color: #E83151 !important;
+}
+
+.navbar-nav a {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.navbar-nav .btn {
+  border-radius: 25px;
+  background-color: #e8314fb4;
+  border: solid #E83151 1.5px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.navbar-nav a:hover,
+.navbar-brand:hover {
+  color: #E83151;
+}

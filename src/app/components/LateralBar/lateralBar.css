@@ -1,0 +1,26 @@
+.lateralBar {
+  position: fixed;
+  height: 100vh;
+  width: min-content;
+  z-index: 2;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: min-content;
+}
+
+.lateralBar div {
+  padding: 5px;
+}
+
+.lateralBar a:hover {
+  cursor: pointer;
+}
+
+.lateralBar a:hover svg {
+  color: #E83151;
+}

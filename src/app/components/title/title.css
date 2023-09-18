@@ -1,0 +1,13 @@
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#borderBottom {
+  width: 50px;
+  margin: auto;
+  border-bottom: 8px solid #E83151;
+}

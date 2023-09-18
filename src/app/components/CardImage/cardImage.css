@@ -1,0 +1,52 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E83151;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+
+.cardContainer:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: min-content;
+}
+
+.topic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cardContainer {
+  position: relative;
+  border: #008CBA;
+  border-radius: 25px;
+}
+
+.cardContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}

@@ -1,0 +1,87 @@
+.header {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+#headerParticle {
+  height: 100vh;
+  z-index: 0;
+}
+
+/* Scroll icon */
+
+@keyframes scroll_2 {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateY(.75rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+.scroll-icon__dot {
+  display: block;
+  position: absolute;
+  left: 50%;
+  background: #fff;
+  height: .5rem;
+  width: .5rem;
+  top: .6rem;
+  margin-left: -.25rem;
+  border-radius: 50%;
+  transform-origin: top center;
+  backface-visibility: hidden;
+  animation: scroll_2 2s ease-out infinite;
+}
+
+.scroll-icon {
+  display: block;
+  position: relative;
+  height: 3rem;
+  width: 1.5rem;
+  border: .25rem solid #fff;
+  border-radius: 1em;
+}
+
+.scrollSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollDiv {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 15%;
+}

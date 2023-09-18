@@ -1,0 +1,32 @@
+#aboutme {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.profil {
+  display: flex;
+  border-radius: 67% 33% 70% 30% / 34% 73% 27% 66%;
+  width: 70%;
+  height: auto;
+}
+
+.aboutmeProfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutmeText {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}

@@ -1,0 +1,41 @@
+{
+  "front-end": [{
+      "title": "ReactJS",
+      "percent": 80
+    },
+    {
+      "title": "React Native",
+      "percent": 70
+    },
+    {
+      "title": "Redux/Mobx",
+      "percent": 65
+    },
+    {
+      "title": "HTML/CSS",
+      "percent": 75
+    },
+    {
+      "title": "Bootstrap",
+      "percent": 80
+    }
+  ],
+  "back-end": [{
+      "title": "NodeJS",
+      "percent": 60
+    },
+    {
+      "title": "NestJS",
+      "percent": 35
+    }
+  ],
+  "bdd": [{
+      "title": "MySql",
+      "percent": 50
+    },
+    {
+      "title": "MongoDB",
+      "percent": 30
+    }
+  ]
+}
