@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
 import './header.css';
-import BackgroundAnimation from '@/app/components/backgroundAnimation/BackgroundAnimation';
+import BackgroundAnimation from '@/app/components/backgroundAnimation/backgroundAnimation';
 import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from 'tsparticles';
 
@@ -10,15 +10,14 @@ const Header = () => {
   }, []);
 
   const particlesHeaderLoaded = useCallback(async (container: Container | undefined) => {
-    await console.log("container1");
   }, []);
   return (
     <div className="header">
       <BackgroundAnimation id={"headerParticle"} particlesInit={particlesHeaderInit} particlesLoaded={particlesHeaderLoaded}></BackgroundAnimation>
 
       <div className='headerTitle'>
-        <div className='text-center'>Emilie De Oliveira</div>
-        <div className='text-center'>Développeuse Fullstack</div>
+        <h1 className='text-center'>Emilie De Oliveira</h1>
+        <h1 className='text-center'>Développeuse Fullstack</h1>
       </div>
       <div className="scrollDiv">
         <section className="scrollSection">

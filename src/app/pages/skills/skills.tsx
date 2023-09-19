@@ -1,7 +1,7 @@
 import React from 'react'
 import './skills.css';
-import Title from '@/app/components/title/Title';
-import Subtitle from '@/app/components/subtitle/Subtitle';
+import Title from '@/app/components/title/title';
+import Subtitle from '@/app/components/subtitle/subtitle';
 import { Col, Container, ProgressBar, Row } from 'react-bootstrap';
 import data from './skills.json';
 const frontEndData = data['front-end'];
@@ -18,7 +18,7 @@ const Skills = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col sm>
             <div className='skillSection'>
               <Subtitle text={"Front-end"}></Subtitle>
               {frontEndData.map((data, i) => (
@@ -29,7 +29,7 @@ const Skills = () => {
               ))}
             </div>
           </Col>
-          <Col>
+          <Col sm>
             <div className='skillSection'>
 
               <Subtitle text={"Back-end"}></Subtitle>

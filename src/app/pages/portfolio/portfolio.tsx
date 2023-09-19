@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css';
-import Title from '@/app/components/title/Title';
+import Title from '@/app/components/title/title';
 import { Container, Row, Col } from 'react-bootstrap';
-import CardImage from '@/app/components/CardImage/CardImage';
+import CardImage from '@/app/components/cardImage/cardImage';
 import MSFImage from './monitor.png';
 
 const Portfolio = () => {
