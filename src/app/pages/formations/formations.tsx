@@ -1,6 +1,6 @@
 import React from 'react'
 import './formations.css';
-import Title from '@/app/components/title/Title';
+import Title from '@/app/components/title/title';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
