@@ -1,4 +1,3 @@
-import BackgroundAnimation from '@/app/components/backgroundAnimation/BackgroundAnimation'
 import React, { useCallback } from 'react'
 import './footer.css';
 import { loadFull } from 'tsparticles';
@@ -14,7 +13,6 @@ const Footer = () => {
   }, []);
   return (
     <div className='footer'>
-      {/* <BackgroundAnimation id={"footerParticle"} particlesInit={particlesInit} particlesLoaded={particlesLoaded}></BackgroundAnimation> */}
       <div className='footerText'>
         <div>© Emilie De Oliveira | 2023. Tous droits réservés.</div>
       </div>
