@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'react-bootstrap';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import useMobile from '@/app/hooks/useMobile.hook';
+import cv from './Emilie_DeOliveira_cv.pdf';
 
 const Navigation = () => {
   const [scroll, setScroll] = useState(false);
@@ -25,7 +26,7 @@ const Navigation = () => {
   });
 
   return (
-    <Navbar id='navbar' collapseOnSelect expand="lg" className={isMobile ? "bg-body-tertiary notTransparent" : scroll ? "transparent" : "bg-body-tertiary notTransparent"} fixed="top" >
+    <Navbar id='navbar' collapseOnSelect expand="lg" className={isMobile ? "bg-body-tertiary notTransparent" : scroll ? "bg-body-tertiary notTransparent" : "transparent"} fixed="top" >
       <Container>
         <Navbar.Brand href={"/"}>ED</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +36,9 @@ const Navigation = () => {
             <Nav.Link href="#skills">Compétences</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#formations">Formations</Nav.Link>
-            <Button>Télécharger mon CV <FileDownloadIcon fontSize="small" sx={{ color: 'white' }} /></Button>
+            <a href={"/Emilie_DeOliveira_cv.pdf"} download><Button
+            >Télécharger mon CV <FileDownloadIcon fontSize="small" sx={{ color: 'white' }} />
+            </Button></a>
           </Nav>
         </Navbar.Collapse>
       </Container>

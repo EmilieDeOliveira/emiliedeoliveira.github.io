@@ -20,7 +20,7 @@ export default function Home() {
       <Aboutme></Aboutme>
       <Skills></Skills>
       <Portfolio></Portfolio>
-      {/* <Formations></Formations> */}
+      <Formations></Formations>
       <Footer></Footer>
     </main>
   )

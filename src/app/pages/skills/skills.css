@@ -10,10 +10,6 @@
   align-items: center;
 }
 
-#skills :first-child {
-  width: 100%;
-}
-
 .progress-bar {
   background-color: black !important;
 }

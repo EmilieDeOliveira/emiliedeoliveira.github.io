@@ -21,7 +21,7 @@
 .text {
   color: white;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -31,6 +31,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   height: min-content;
+  width: max-content;
 }
 
 .topic {
@@ -41,8 +42,6 @@
 
 .cardContainer {
   position: relative;
-  border: #008CBA;
-  border-radius: 25px;
 }
 
 .cardContainer img {
