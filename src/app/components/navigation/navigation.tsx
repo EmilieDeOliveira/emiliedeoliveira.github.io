@@ -24,6 +24,7 @@ const Navigation = () => {
     changeColor();
     window.addEventListener("scroll", changeColor);
   });
+  console.log(window.location.href);
 
   return (
     <Navbar id='navbar' collapseOnSelect expand="lg" className={isMobile ? "bg-body-tertiary notTransparent" : scroll ? "bg-body-tertiary notTransparent" : "transparent"} fixed="top" >
