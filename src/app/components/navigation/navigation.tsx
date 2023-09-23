@@ -8,6 +8,7 @@ import { Button } from 'react-bootstrap';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import useMobile from '@/app/hooks/useMobile.hook';
 import cv from './Emilie_DeOliveira_cv.pdf';
+import Link from 'next/link';
 
 const Navigation = () => {
   const [scroll, setScroll] = useState(false);
@@ -30,7 +31,7 @@ const Navigation = () => {
   return (
     <Navbar id='navbar' collapseOnSelect expand="lg" className={isMobile ? "bg-body-tertiary notTransparent" : scroll ? "bg-body-tertiary notTransparent" : "transparent"} fixed="top" >
       <Container>
-        <Navbar.Brand href={"/"}>ED</Navbar.Brand>
+        <Link href={"/"}><Navbar.Brand href={"/"}>ED</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
