@@ -14,6 +14,8 @@ const Navigation = () => {
   const isMobile = useMobile();
 
   const changeColor = () => {
+    if (typeof window !== "object") return;
+
     if (window.scrollY >= 66) {
       setScroll(true)
     } else {
@@ -24,7 +26,6 @@ const Navigation = () => {
     changeColor();
     window.addEventListener("scroll", changeColor);
   });
-  console.log(window.location.href);
 
   return (
     <Navbar id='navbar' collapseOnSelect expand="lg" className={isMobile ? "bg-body-tertiary notTransparent" : scroll ? "bg-body-tertiary notTransparent" : "transparent"} fixed="top" >
