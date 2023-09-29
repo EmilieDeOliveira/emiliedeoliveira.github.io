@@ -1,0 +1,9 @@
+.portfolio {
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+.portfolio span,
+.portfolio a {
+  color: #E83151
+}

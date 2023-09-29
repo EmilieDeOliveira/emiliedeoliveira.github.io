@@ -33,10 +33,10 @@ const Formations = () => {
               <Typography fontSize={24}>2019</Typography>
               <Typography variant="h6" component="span" fontSize={24}
                 fontWeight={800}>
-                License professionnelle DReAM
+                Licence professionnelle DReAM
                 (Design et Réalisation d’Applications Mobiles )
               </Typography>
-              <Typography>Formation B+3 du développement axé web et mobile. </Typography>
+              <Typography>Formation Bac +3 en développement web et mobile. </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>

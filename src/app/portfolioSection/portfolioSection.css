@@ -1,4 +1,4 @@
-#portfolio {
+#portfolioSection {
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -10,6 +10,6 @@
   align-items: center;
 }
 
-#portfolio .col {
+#portfolioSection .col {
   padding: 15px;
 }

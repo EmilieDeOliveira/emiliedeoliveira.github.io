@@ -4,7 +4,7 @@
   font-family: "Poppins-Regular";
   /*Can be any text*/
   src: local("Poppins-Regular"),
-    url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    url("/assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 }
 
 body {

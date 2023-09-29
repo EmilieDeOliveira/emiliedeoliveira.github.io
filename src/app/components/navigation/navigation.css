@@ -4,17 +4,17 @@
 
 .transparent {
   background-color: transparent;
-  transition: .5s padding-top ease-out;
-  transition: .5s padding-bottom ease-out;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  transition: .5s padding-top ease-out !important;
+  transition: .5s padding-bottom ease-out !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .notTransparent {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  transition: .5s padding-top ease-out;
-  transition: .5s padding-bottom ease-out;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  transition: .5s padding-top ease-out !important;
+  transition: .5s padding-bottom ease-out !important;
   background-color: #fff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, .1);
 }
