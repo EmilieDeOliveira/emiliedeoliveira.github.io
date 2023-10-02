@@ -1,5 +1,11 @@
-.logo {
-  text-decoration: none;
+.navbar-brand {
+  font-size: 2rem ! important;
+  font-weight: bold;
+
+}
+
+.logo:hover {
+  color: #E83151;
 }
 
 .transparent {
@@ -38,12 +44,13 @@
   border: solid #E83151 1.5px;
 }
 
-.navbar-brand {
-  font-size: 1.5em;
-  font-weight: bold;
+.navbar-nav .btn:hover {
+  background-color: #E83151;
+  border: solid #E83151 1.5px;
+
 }
 
 .navbar-nav a:hover,
 .navbar-brand:hover {
-  color: #E83151;
+  color: #E83151 !important;
 }

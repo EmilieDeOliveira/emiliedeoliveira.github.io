@@ -3,13 +3,13 @@ import Image from 'next/image';
 import './cardImage.css';
 import Link from 'next/link';
 
-const CardImage = (props: { text: string, topic: string, img: string, url?: string }) => {
+const CardImage = (props: { title: string, text: string, topic: string, img: string, url?: string }) => {
 
   return (
     <div className="cardContainer">
       <Link href={`/portfolio/${props.text.toLowerCase()}`} legacyBehavior>
         <div className="overlay">
-          <span className="text">{props.text}</span>
+          <span className="text">{props.title}</span>
           <span className="topic">{props.topic}</span>
         </div>
       </Link>

@@ -8,11 +8,9 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
-import useMobile from '@/app/hooks/useMobile.hook';
-
 
 const Formations = () => {
-  const isMobile = useMobile();
+
   return (
     <section id='formations'>
       <div>

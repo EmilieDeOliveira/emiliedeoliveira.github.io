@@ -7,3 +7,7 @@
 .portfolio a {
   color: #E83151
 }
+
+.portfolio .card {
+  margin: 5px;
+}

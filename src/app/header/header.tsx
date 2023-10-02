@@ -16,8 +16,8 @@ const Header = () => {
       <BackgroundAnimation id={"headerParticle"} particlesInit={particlesHeaderInit} particlesLoaded={particlesHeaderLoaded}></BackgroundAnimation>
 
       <div className='headerTitle'>
-        <h1 className='text-center'>Emilie De Oliveira</h1>
-        <h1 className='text-center'>Développeuse Fullstack</h1>
+        <p className='text-center'>Emilie De Oliveira</p>
+        <p className='text-center'>Développeuse Fullstack</p>
       </div>
       <div className="scrollDiv">
         <section className="scrollSection">

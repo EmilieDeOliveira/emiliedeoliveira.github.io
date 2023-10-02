@@ -17,7 +17,7 @@ export const Project = [
     srcImg: ["/assets/images/platinium/platinium.png", "/assets/images/msfDevice1.png"],
   },
   {
-    name: "gobeyondpartners",
+    name: "gobeyondstudio",
     url: "https://studio.gobeyondpartners.com/",
     date: "15/09/2023",
     techno: "Nextjs",
@@ -55,10 +55,19 @@ Déploiement à l’aide de PM2 sur Puty et Filezila`,
     name: "tourmaletapp",
     date: "15/09/2023",
     techno: "Nextjs",
-    descr: `Conception et développement d’une WebApp avec Angular 7 et Ionic pour la 
-compilation de l’application mobile. Mise en place de l’api NodeJs en parallèle.
-Intégration des données de hauteur de neige d’un partenaire dans les solutions 
-CGx en C#.`,
-    srcImg: ["/assets/images/msfDevice1.png", "/assets/images/msfDevice1.png"],
+    descr: `Dans le cadre de ma licence professionnelle DReAM, j'ai réalisé une alternace chez CGx Mountain, une entreprise concevant et développant des solutions pour les stations de ski.
+    
+    J'ai pu mettre en oeuvre mes aquis en développant une web app avec Angular 7 et Ionic permettant d’afficher le prévisionnel dans le but de le partager à l’ensemble des employés d’une station de ski et notamment sur le terrain. 
+
+    Elle permet nottament d'afficher la météo, les ouvertures et fermetures des pistes, les damages prévu..
+
+    En parallèle, j'ai mis en place l'api en NodeJs.`,
+    srcImg: [
+      "/assets/images/cgx/image28-65.jpeg",
+      "/assets/images/cgx/image30-73.jpeg",
+      "/assets/images/cgx/image33-67.jpeg",
+      "/assets/images/cgx/image36-69.jpeg",
+      "/assets/images/cgx/image38-71.jpeg",
+    ],
   },
 ];

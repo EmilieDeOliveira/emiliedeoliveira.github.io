@@ -4,7 +4,7 @@ import './portfolio.css';
 import { Project } from './project';
 import { notFound } from "next/navigation";
 import Title from '@/app/components/title/title';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,6 +14,10 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
   if (!project) {
     notFound();
   }
+
+  let description = project.descr.split("\n");
+
+
   return (
     <div className="portfolio">
       <Container>
@@ -36,7 +40,9 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
             <Row>
               <Col>
                 {project.url && <Link href={project.url} target="_blank">{project.url}</Link>}
-                <div>{project.descr}</div>
+                {description.map((string, i) => (
+                  <p key={i}>{string}</p>
+                ))}
               </Col>
             </Row>
           </Col>
@@ -45,13 +51,18 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
             <Row xs={2}>
               {project.srcImg.map((img: string, i: number) =>
                 <Col key={i}>
-                  <Image
-                    src={img}
-                    alt={""}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', margin: "50px" }} />
+                  <Card>
+                    <Card.Body>
+                      <Image
+                        src={img}
+                        alt={""}
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto' }} />
+                    </Card.Body>
+                  </Card>
+
                 </Col>
               )}
             </Row>

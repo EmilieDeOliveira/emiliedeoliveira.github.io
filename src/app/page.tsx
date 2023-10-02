@@ -6,6 +6,7 @@ import Header from '@/app/header/header'
 import PortfolioSection from '@/app/portfolioSection/portfolioSection'
 import Skills from '@/app/skills/skills'
 import useMobile from '@/app/hooks/useMobile.hook'
+import Experiences from '@/app/experiences/experiences'
 
 export default function Home() {
   const isMobile = useMobile();
@@ -17,6 +18,7 @@ export default function Home() {
       <Aboutme></Aboutme>
       <Skills></Skills>
       <PortfolioSection></PortfolioSection>
+      <Experiences></Experiences>
       <Formations></Formations>
     </main>
   )
