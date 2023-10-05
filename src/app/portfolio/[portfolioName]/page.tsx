@@ -39,10 +39,11 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
             </Row>
             <Row>
               <Col>
-                {project.url && <Link href={project.url} target="_blank">{project.url}</Link>}
+
                 {description.map((string, i) => (
                   <p key={i}>{string}</p>
                 ))}
+                {project.url && <p>Lien :  <Link href={project.url} target="_blank">{project.url}</Link></p>}
               </Col>
             </Row>
           </Col>

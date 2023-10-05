@@ -39,7 +39,7 @@ const Navigation = () => {
             <Nav.Link href="/#skills">Compétences</Nav.Link>
             <Nav.Link href="/#portfolioSection">Portfolio</Nav.Link>
             <Nav.Link href="/#formations">Formations</Nav.Link>
-            <a href={"/Emilie_DeOliveira_cv.pdf"} download><Button
+            <a href={"/DeOliveira_Emilie_Cv.pdf"} download><Button
             >Télécharger mon CV <FileDownloadIcon fontSize="small" sx={{ color: 'white' }} />
             </Button></a>
           </Nav>

@@ -4,16 +4,19 @@ export const Project = [
     url: "https://emiliedeoliveira.github.io/",
     date: "15/09/2023",
     techno: "Nextjs",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor nulla at volutpat maximus. Donec lobortis felis quis sodales porta. In in metus dapibus, varius nulla a, accumsan neque. Curabitur tincidunt, ipsum eu auctor viverra, nulla urna gravida leo, vel pellentesque turpis elit id elit. Nulla feugiat eros blandit nunc lacinia, ut elementum dolor convallis. In sagittis in tortor ut consequat. Aliquam tempus odio nisl, nec bibendum metus laoreet et. Nunc in dignissim erat, vitae fringilla elit. Aliquam sollicitudin et libero vel semper. Integer venenatis suscipit nulla, vel vulputate libero dapibus vel. Nunc pellentesque tristique lorem,id iaculis purus ultricies sed.Nunc faucibus nunc a ante suscipit dictum.Proin feugiat est leo",
+    descr: `J'ai réaliser ce portfolio pour montrer mes travaux et mes expériences.
+    Je l'ai développer avec NextJs.`,
     srcImg: ["/assets/images/msfDevice1.png", "/assets/images/msfDevice1.png"],
   },
   {
     name: "platinium",
     date: "15/09/2023",
-    techno: "Nextjs",
-    descr: `Conception et développement, en équipe, d’une web app pour une entreprise de nettoyage, permettant aux employés de traquer leurs temps de travail sur le lieu d’ intervention, en scannant un QRcode. Conception et développement du site administrateur.
-    Utilisation de React avec typescript pour le front et NestJs pour le back.`,
+    techno: "Capacitor, ReactJs, NestJs",
+    descr: `Durant mon expérience chez Koji, j'ai travaillé en équipe sur Platinium, une application permettant à une entreprise de nettoyage de suivre les heures de travails des employers.
+
+    L'application mobile, realisé avec Capacitor, utilise l'appareil photo pour scanner un QRcode afficher chez le client. Le dashboard admin permet lui de suivre le temps, et générer les QRcode.
+
+    Le developpeur back end, et moi même avons utilisé Nextjs pour la partie front, ainsi que Mobx et DaisyUI (Tailwinds). Pour la partie back, nous avons utilisé NestJs.`,
     srcImg: ["/assets/images/platinium/platinium.png", "/assets/images/msfDevice1.png"],
   },
   {
@@ -61,7 +64,7 @@ Déploiement à l’aide de PM2 sur Puty et Filezila`,
 
     Elle permet nottament d'afficher la météo, les ouvertures et fermetures des pistes, les damages prévu..
 
-    En parallèle, j'ai mis en place l'api en NodeJs.`,
+    En parallèle, j'ai mis en place l'api en NodeJs et express, ainsi que swagger pour la documentation.`,
     srcImg: [
       "/assets/images/cgx/image28-65.jpeg",
       "/assets/images/cgx/image30-73.jpeg",
