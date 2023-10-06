@@ -38,6 +38,7 @@ const Navigation = () => {
             <Nav.Link href="/#aboutme" >A propos de moi</Nav.Link>
             <Nav.Link href="/#skills">Compétences</Nav.Link>
             <Nav.Link href="/#portfolioSection">Portfolio</Nav.Link>
+            <Nav.Link href="/#experiences">Experiences</Nav.Link>
             <Nav.Link href="/#formations">Formations</Nav.Link>
             <a href={"/DeOliveira_Emilie_Cv.pdf"} download><Button
             >Télécharger mon CV <FileDownloadIcon fontSize="small" sx={{ color: 'white' }} />
