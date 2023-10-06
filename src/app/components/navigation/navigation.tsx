@@ -32,7 +32,7 @@ const Navigation = () => {
     <Navbar id='navbar' collapseOnSelect expand="lg" className={isMobile || pathname != "/" ? " notTransparent" : scroll ? "notTransparent" : "transparent"} fixed="top" >
       <Container>
         <Navbar.Brand className="logo" href={"/"}>ED</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle label='button' />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Link href="/#aboutme" >A propos de moi</Nav.Link>

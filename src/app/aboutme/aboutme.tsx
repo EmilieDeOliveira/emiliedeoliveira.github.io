@@ -1,7 +1,7 @@
 import React from 'react'
 import './aboutme.css';
 import Title from '@/app/components/title/title';
-import profil from './profil.jpg';
+// import profil from 'assets/images/profil.webp';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -16,7 +16,10 @@ const Aboutme = () => {
         </Row>
         <Row >
           <Col sm className='aboutmeProfil'>
-            <Image className='profil' src={profil} alt="profil"></Image>
+            <Image className='profil' src='assets/images/profil.webp' alt="profil" width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '70%', height: 'auto' }} ></Image>
           </Col>
           <Col sm className='aboutmeText'>
             <p>Titulaire d’une Licence informatique en développement web et mobile, je justifie de

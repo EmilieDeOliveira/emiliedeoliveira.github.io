@@ -5,8 +5,10 @@
   /*Can be any text*/
   src: local("Poppins-Regular"),
     url("/assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 body {
   font-family: 'Poppins-Regular';
+
 }

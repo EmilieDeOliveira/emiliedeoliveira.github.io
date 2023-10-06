@@ -6,7 +6,7 @@ export const Project = [
     techno: "Nextjs",
     descr: `J'ai réaliser ce portfolio pour montrer mes travaux et mes expériences.
     Je l'ai développer avec NextJs.`,
-    srcImg: ["/assets/images/msfDevice1.png", "/assets/images/msfDevice1.png"],
+    srcImg: ["/assets/images/msfDevice1.webp", "/assets/images/msfDevice1.webp"],
   },
   {
     name: "platinium",
@@ -17,7 +17,7 @@ export const Project = [
     L'application mobile, realisé avec Capacitor, utilise l'appareil photo pour scanner un QRcode afficher chez le client. Le dashboard admin permet lui de suivre le temps, et générer les QRcode.
 
     Le developpeur back end, et moi même avons utilisé Nextjs pour la partie front, ainsi que Mobx et DaisyUI (Tailwinds). Pour la partie back, nous avons utilisé NestJs.`,
-    srcImg: ["/assets/images/platinium/platinium.png", "/assets/images/msfDevice1.png"],
+    srcImg: ["/assets/images/platinium/platinium.webp", "/assets/images/msfDevice1.webp"],
   },
   {
     name: "gobeyondstudio",
@@ -27,7 +27,7 @@ export const Project = [
     descr: `Développement front du site vitrine de My studio factory d’après les maquettes du 
 client. Utilisation de React avec typescript et intégrations de Lotties fournie par le 
 client pour les animations.`,
-    srcImg: ["/assets/images/msf/msfDevice1.png", "/assets/images/msf/msf2.png", "/assets/images/msf/msf3.png"],
+    srcImg: ["/assets/images/msf/msfDevice1.webp", "/assets/images/msf/msf2.webp", "/assets/images/msf/msf3.webp"],
   },
   {
     name: "lespotionsdelitha",
@@ -38,7 +38,7 @@ développement du site e-commerce LespotionsdeLitha avec ReactJS, Redux et
 Boostrap. Utilisation de Stripe pour le tunnel de paiement. Conception de la base 
 de données avec MySql et du back end grâce à Nodejs. 
 Déploiement à l’aide de PM2 sur Puty et Filezila.`,
-    srcImg: ["/assets/images/msfDevice1.png", "/assets/images/msfDevice1.png"],
+    srcImg: ["/assets/images/msfDevice1.webp", "/assets/images/msfDevice1.webp"],
   },
   {
     name: "cartegrisecarcassonne",
@@ -48,10 +48,10 @@ Déploiement à l’aide de PM2 sur Puty et Filezila.`,
 Conception et développement du site vitrine avec ReactJS.
 Déploiement à l’aide de PM2 sur Puty et Filezila`,
     srcImg: [
-      "/assets/images/cgc/home.png",
-      "/assets/images/cgc/table.png",
-      "/assets/images/cgc/mobile1.png",
-      "/assets/images/cgc/mobile2.png",
+      "/assets/images/cgc/home.webp",
+      "/assets/images/cgc/table.webp",
+      "/assets/images/cgc/mobile1.webp",
+      "/assets/images/cgc/mobile2.webp",
     ],
   },
   {
