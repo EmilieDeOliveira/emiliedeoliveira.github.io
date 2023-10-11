@@ -11,12 +11,19 @@
 }
 
 .headerTitle {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
   width: 100%;
   position: absolute;
   z-index: 1;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .headerTitle {
+    font-size: 4rem;
+  }
+
 }
 
 #headerParticle {

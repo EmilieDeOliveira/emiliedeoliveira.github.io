@@ -24,7 +24,7 @@ const Skills = () => {
               {frontEndData.map((data, i) => (
                 <div key={i} className='skillsData'>
                   <div className='skillsTitle'>{data.title}</div>
-                  <ProgressBar aria-label={data.title} role="progressbar" now={data.percent} label={`${data.percent}%`} className='progressbar' />
+                  <ProgressBar aria-label={data.title} role="progressbar" now={data.percent} className='progressbar' />
                 </div>
               ))}
             </div>
@@ -36,7 +36,7 @@ const Skills = () => {
               {backEndData.map((data, i) => (
                 <div key={i} className='skillsData'>
                   <div className='skillsTitle'>{data.title}</div>
-                  <ProgressBar aria-label={data.title} role="progressbar" now={data.percent} label={`${data.percent}%`} className='progressbar' />
+                  <ProgressBar aria-label={data.title} role="progressbar" now={data.percent} className='progressbar' />
                 </div>
               ))}
             </div>
@@ -45,7 +45,7 @@ const Skills = () => {
               {bdd.map((data, i) => (
                 <div key={i} className='skillsData'>
                   <div className='skillsTitle'>{data.title}</div>
-                  <ProgressBar aria-label={data.title} role="progressbar" now={data.percent} label={`${data.percent}%`} className='progressbar' />
+                  <ProgressBar aria-label={data.title} role="progressbar" now={data.percent} className='progressbar' />
                 </div>
               ))}
             </div>
