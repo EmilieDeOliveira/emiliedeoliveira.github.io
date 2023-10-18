@@ -8,6 +8,21 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 
+export async function getStaticPaths() {
+  // Return a list of possible value for id
+  return {
+    paths: [
+      { params: { portfolioName: 'portfolio' } },
+      { params: { portfolioName: 'platinium' } },
+      { params: { portfolioName: 'gobeyondstudio' } },
+      { params: { portfolioName: 'lespotionsdelitha' } },
+      { params: { portfolioName: 'cartegrisecarcassonne' } },
+      { params: { portfolioName: 'tourmaletapp' } }
+    ],
+    fallback: true,
+  }
+}
+
 export default function Page({ params }: { params: { portfolioName: string } }) {
   const project = Project.find(p => p.name === params.portfolioName);
 
