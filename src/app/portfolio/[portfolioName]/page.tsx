@@ -8,6 +8,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 
+export async function generateStaticParams() {
+  const projects = Project;
+  return Project.map((p) => ({
+    slug: p.name,
+  }))
+}
+
 export default function Page({ params }: { params: { portfolioName: string } }) {
   const project = Project.find(p => p.name === params.portfolioName);
 
