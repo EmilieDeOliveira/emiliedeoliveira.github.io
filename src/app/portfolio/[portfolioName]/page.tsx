@@ -9,14 +9,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export async function generateStaticParams() {
-  const projects = Project;
   return Project.map((p) => ({
-    slug: p.name,
+    portfolioName: p.name,
   }))
 }
 
 export default function Page({ params }: { params: { portfolioName: string } }) {
-  const project = Project.find(p => p.name === params.portfolioName);
+  const { portfolioName } = params;
+  const project = Project.find(p => p.name === portfolioName);
 
   if (!project) {
     notFound();
@@ -30,7 +30,7 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
       <Container>
         <Row>
           <Col>
-            <Title text={params.portfolioName.toUpperCase()}></Title>
+            <Title text={portfolioName.toUpperCase()}></Title>
           </Col>
         </Row>
 
