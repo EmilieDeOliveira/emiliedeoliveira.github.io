@@ -7,7 +7,7 @@ const CardImage = (props: { title: string, text: string, topic: string, img: str
 
   return (
     <div className="cardContainer">
-      <Link href={`/portfolio/[portfolioname]`} as={`/portfolio/${props.text.toLowerCase()}`} legacyBehavior>
+      <Link href={`/portfolio/${props.text.toLowerCase()}`} legacyBehavior>
         <div className="overlay">
           <span className="text">{props.title}</span>
           <span className="topic">{props.topic}</span>
