@@ -8,6 +8,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return Project.map((p) => ({
     portfolioName: p.name,
