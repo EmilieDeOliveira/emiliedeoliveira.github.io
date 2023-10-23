@@ -43,7 +43,7 @@ jobs:
           envs: GITHUBUSERNAME, GITHUBTOKEN
           script: |
             docker login ghcr.io -u $GITHUBUSERNAME -p $GITHUBTOKEN
-            docker pull ghcr.io/EmilieDeOliveira/emiliedeoliveira.github.io/portfolioimage:latest
+            docker pull ghcr.io/emiliedeoliveira/emiliedeoliveira.github.io/portfolioimage:latest
             docker stop portfolio
             docker system prune -f
-            docker run --name portfolio -dit -p 3000:3000 ghcr.io/EmilieDeOliveira/emiliedeoliveira.github.io/portfolioimage:latest
+            docker run --name portfolio -dit -p 3000:3000 ghcr.io/emiliedeoliveira/emiliedeoliveira.github.io/portfolioimage:latest
