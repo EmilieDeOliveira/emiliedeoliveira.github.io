@@ -33,16 +33,16 @@ jobs:
       - name: Deploy package to vps
         uses: appleboy/ssh-action@v0.1.8
         env:
-          GITHUB_USERNAME: ${{ secrets.USERNAME }}
-          GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
+          GITHUBUSERNAME: ${{ secrets.USERNAME }}
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
         with:
           host: ${{ secrets.DEPLOYHOST }}
           port: ${{ secrets.DEPLOYPORT }}
           username: ${{ secrets.DEPLOYUSER }}
           key: ${{ secrets.DEPLOYKEY }}
-          envs: GITHUB_USERNAME, GITHUB_TOKEN
+          envs: GITHUBUSERNAME, GITHUBTOKEN
           script: |
-            docker login ghcr.io -u $GITHUB_USERNAME -p $GITHUB_TOKEN
+            docker login ghcr.io -u $GITHUBUSERNAME -p $GITHUBTOKEN
             docker pull ghcr.io/EmilieDeOliveira/emiliedeoliveira.github.io/portfolioimage:latest
             docker stop portfolio
             docker system prune -f
