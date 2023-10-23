@@ -16,7 +16,7 @@ const Aboutme = () => {
         </Row>
         <Row >
           <Col sm className='aboutmeProfil'>
-            <Image className='profil' src='assets/images/profil.webp' alt="profil" width={0}
+            <Image className='profil' src='/assets/images/profil.webp' alt="profil" width={0}
               height={0}
               sizes="100vw"
               style={{ width: '70%', height: 'auto' }} ></Image>

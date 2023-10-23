@@ -1,22 +1,12 @@
+"use client"
 import React from 'react'
 import './portfolio.css';
 import { Project } from './project';
 import { notFound } from "next/navigation";
 import Title from '@/app/components/title/title';
-// import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
-
-export async function generateStaticParams() {
-  return [
-    { portfolioName: 'portfolio' },
-    { portfolioName: 'platinium' },
-    { portfolioName: 'gobeyondstudio' },
-    { portfolioName: 'lespotionsdelitha' },
-    { portfolioName: 'cartegrisecarcassonne' },
-    { portfolioName: 'tourmaletapp' }
-  ]
-}
 
 export default function Page({ params }: { params: { portfolioName: string } }) {
   const { portfolioName } = params;
@@ -31,11 +21,10 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
 
   return (
     <div className="portfolio">
-      <Title text={portfolioName.toUpperCase()}></Title>
-
-      {/* <Container>
+      <Container>
         <Row>
           <Col>
+            <Title text={portfolioName.toUpperCase()}></Title>
           </Col>
         </Row>
 
@@ -82,7 +71,7 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
 
           </Col>
         </Row>
-      </Container> */}
+      </Container>
     </div>
 
   );
