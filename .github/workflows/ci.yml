@@ -31,7 +31,7 @@ jobs:
           tags: latest
 
       - name: Deploy package to vps
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v0.1.8
         env:
           GITHUB_USERNAME: ${{ secrets.USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
