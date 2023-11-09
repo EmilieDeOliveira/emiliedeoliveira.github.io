@@ -115,9 +115,9 @@ const Experiences = () => {
 
                   <Typography variant="h6" component="span" fontSize={24}
                     fontWeight={800}>
-                    CGx Montain
+                    CGx Mountain
                   </Typography>
-                  <Typography>Dans le cadre de mon alternance pour obtenir ma licence DReAM, j&apos;ai travaillé chez CGx Moutain. Cette entreprise, qui concoie et développe des solutions pour les stations de ski, m&apos;a confié
+                  <Typography>Dans le cadre de mon alternance pour obtenir ma licence DReAM, j&apos;ai travaillé chez CGx Mountain. Cette entreprise, qui concoie et développe des solutions pour les stations de ski, m&apos;a confié
                     le développement d&apos;une <Link className="pink" href="/portfolio/tourmaletapp" target="_blank">web app</Link> pour une station: Tourmalet. Celle-ci permet au employer de suivre les prévisions sur notamment les ouvertures et fermetures des pistes, la météo, les damages prévus...<br />
                     J&apos;ai réalisé l&apos;application avec <span className="pink">Angular 7</span> et <span className="pink">Ionic</span> pour la partie Front et <span className="pink">NodeJs</span> avec express ainsi que <span className="pink">Swagger</span> pour la partie Back.</Typography>
                 </TimelineContent>
