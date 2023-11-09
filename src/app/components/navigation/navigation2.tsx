@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import "./navigation.css";
+import "./navigation2.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -10,7 +10,7 @@ import useMobile from '@/app/hooks/useMobile.hook';
 import { usePathname } from 'next/navigation'
 import useActiveSection from '@/app/hooks/useActiveSection.hook';
 
-const Navigation = () => {
+const Navigation2 = () => {
   const activeSection = useActiveSection();
 
   const [scroll, setScroll] = useState(false);
@@ -81,4 +81,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation;
+export default Navigation2;

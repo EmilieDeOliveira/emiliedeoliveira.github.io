@@ -20,7 +20,7 @@ const CardImage = (props: { title: string, text: string, topic: string, img: str
         width={0}
         height={0}
         sizes="100vw"
-        style={{ width: '664', height: 'auto' }}
+        style={{ width: '664' }}
       />
     </div>
   );

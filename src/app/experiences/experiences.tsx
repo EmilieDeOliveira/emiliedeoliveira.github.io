@@ -7,6 +7,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
 import { Container, Row, Col } from 'react-bootstrap';
 import Link from 'next/link';
@@ -25,18 +26,22 @@ const Experiences = () => {
                 flex: 0,
                 padding: 0,
               },
-            }}>
+            }} position="alternate">
               <TimelineItem>
+                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+
+
+                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineConnector sx={{ height: '50px', color: '#E83151' }} />
-                  <TimelineDot sx={{ width: "50px", height: '50px' }} />
-                  <TimelineConnector sx={{ height: '50px' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '50px', px: 2 }}>
                   <Typography fontSize={16}>Février 2022 - Décembre 2022</Typography>
                   <Typography variant="h6" component="span" fontSize={24}
                     fontWeight={800}>
-                    Koji
+                    Développeuse Fullstack
                   </Typography>
                   <Typography>J&apos;ai travaillé chez Koji, une agence web basé à Paris en full remote.
                     <br />J&apos;ai d&apos;abord développé un site vitrine, <Link className="pink" href="/portfolio/gobeyondstudio" target="_blank">Gobeyond Studio</Link>, avec <span id='pink'>NextJs</span> à partir des maquettes du client.
@@ -48,10 +53,12 @@ const Experiences = () => {
               </TimelineItem>
 
               <TimelineItem>
+                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineConnector sx={{ height: '50px' }} />
-                  <TimelineDot sx={{ width: "50px", height: '50px' }} />
-                  <TimelineConnector sx={{ height: '50px' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '50px', px: 2 }}>
                   <Typography fontSize={16}>Octobre 2021 - Decembre 2021</Typography>
@@ -63,11 +70,16 @@ const Experiences = () => {
                   <Typography>Pour le client final Airbus, j&apos;ai travaillé sur une web App permettant de suivre l&apos;avance-retard sur la chaîne de montage des avions. Utilisation de ReactJs.</Typography>
                 </TimelineContent>
               </TimelineItem>
+
               <TimelineItem>
+                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+
+
+                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineConnector sx={{ height: '50px' }} />
-                  <TimelineDot sx={{ width: "50px", height: '50px' }} />
-                  <TimelineConnector sx={{ height: '50px' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '50px', px: 2 }}>
                   <Typography fontSize={16}>Octobre 2020 - Octobre 2021</Typography>
@@ -83,11 +95,16 @@ const Experiences = () => {
                     <br /> J&apos;ai mis en production ces deux projets à l&apos;aide de putty, pm2 et Filezilla.</Typography>
                 </TimelineContent>
               </TimelineItem>
+
               <TimelineItem>
+                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+
+
+                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineConnector sx={{ height: '50px' }} />
-                  <TimelineDot sx={{ width: "50px", height: '50px' }} />
-                  <TimelineConnector sx={{ height: '50px' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
+                  <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '50px', px: 2 }}>
                   <Typography fontSize={16}>Juillet 2018 - Septembre 2019</Typography>

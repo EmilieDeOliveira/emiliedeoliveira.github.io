@@ -7,11 +7,11 @@ import CardImage from '@/app/components/cardImage/cardImage';
 
 const PortfolioSection = () => {
   return (
-    <div id='portfolioSection'>
+    <section id='portfolioSection'>
       <Container>
         <Row>
           <Col xs={12}>
-            <Title text={"Portfolio"}></Title>
+            <Title text={"MES REALISATIONS"}></Title>
           </Col>
         </Row>
         <Row md={3} sm={2} xs={1}>
@@ -35,7 +35,7 @@ const PortfolioSection = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   )
 }
 

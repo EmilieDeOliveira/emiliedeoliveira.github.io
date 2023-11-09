@@ -14,7 +14,7 @@ const Skills = () => {
       <Container>
         <Row>
           <Col xs={12}>
-            <Title text={"Compétences"}></Title>
+            <Title text={"Mes compétences"}></Title>
           </Col>
         </Row>
         <Row>

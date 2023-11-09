@@ -12,12 +12,12 @@ const Header = () => {
   const particlesHeaderLoaded = useCallback(async (container: Container | undefined) => {
   }, []);
   return (
-    <div className="header">
+    <div className="header" id="header">
       <BackgroundAnimation id={"headerParticle"} particlesInit={particlesHeaderInit} particlesLoaded={particlesHeaderLoaded}></BackgroundAnimation>
 
       <div className='headerTitle'>
-        <p className='text-center'>Emilie De Oliveira</p>
-        <p className='text-center'>Développeuse Fullstack</p>
+        <p>Hello! Je suis <span className='name'>Emilie De Oliveira</span></p>
+        <p className='devtitle'>Développeuse Fullstack</p>
       </div>
       <div className="scrollDiv">
         <section className="scrollSection">

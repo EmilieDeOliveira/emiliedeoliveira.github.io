@@ -1,13 +1,12 @@
 .title {
-  font-weight: 600;
-  font-size: 1.8em;
+  font-family: 'Poppins-bold';
+  font-size: 3.5em;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 
 #borderBottom {
-  width: 50px;
-  margin: auto;
-  border-bottom: 8px solid #E83151;
+  width: 150px;
+  border-bottom: 4px solid #E83151;
 }

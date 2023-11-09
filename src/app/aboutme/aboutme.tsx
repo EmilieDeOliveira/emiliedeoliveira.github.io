@@ -11,7 +11,7 @@ const Aboutme = () => {
       <Container>
         <Row>
           <Col xs={12}>
-            <Title text={"A propos de moi"}></Title>
+
           </Col>
         </Row>
         <Row >
@@ -21,7 +21,9 @@ const Aboutme = () => {
               sizes="100vw"
               style={{ width: '70%', height: 'auto' }} ></Image>
           </Col>
-          <Col sm className='aboutmeText'>
+          <Col sm className='aboutmeText' data-aos="fade-up">
+
+            <Title text={"A propos de moi"}></Title>
             <p>Titulaire d’une Licence informatique en développement web et mobile, je justifie de
               3 ans d’expérience de développeur fullstack. J’ai réalisé 6 projets, me
               perfectionnant en ReactJs pour le front ainsi que NodeJs et NestJs pour le back.

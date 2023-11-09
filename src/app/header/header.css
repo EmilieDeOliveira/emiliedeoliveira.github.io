@@ -12,15 +12,27 @@
 
 .headerTitle {
   font-size: 2rem;
-  font-weight: bold;
+
+  text-align: center;
   width: 100%;
   position: absolute;
   z-index: 1;
   color: white;
 }
 
+.name {
+  font-size: 2rem;
+  color: white;
+}
+
+.devtitle {
+  color: #E83151;
+}
+
 @media (min-width: 768px) {
-  .headerTitle {
+
+  .headerTitle .name,
+  .devtitle {
     font-size: 4rem;
   }
 

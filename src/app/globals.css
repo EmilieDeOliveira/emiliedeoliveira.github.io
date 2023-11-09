@@ -8,7 +8,38 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Poppins-bold";
+  /*Can be any text*/
+  src: local("Poppins-Regular"),
+    url("/assets/fonts/Poppins/Poppins-bold.ttf") format("truetype");
+  font-display: swap;
+}
+
 body {
   font-family: 'Poppins-Regular';
+}
 
+html {
+  cursor: none;
+}
+
+.dot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #f7205c;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  pointer-events: none;
+  transition: width 0.2s, height 0.2s;
+}
+
+a,
+button,
+button:not(:disabled) {
+  cursor: none !important;
 }

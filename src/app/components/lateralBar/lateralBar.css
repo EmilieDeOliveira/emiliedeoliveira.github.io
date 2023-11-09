@@ -17,10 +17,6 @@
   padding: 5px;
 }
 
-.lateralBar a:hover {
-  cursor: pointer;
-}
-
 .lateralBar a:hover svg {
   color: #E83151;
 }
