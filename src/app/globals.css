@@ -12,7 +12,7 @@
   font-family: "Poppins-bold";
   /*Can be any text*/
   src: local("Poppins-Regular"),
-    url("/assets/fonts/Poppins/Poppins-bold.ttf") format("truetype");
+    url("/assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-display: swap;
 }
 
