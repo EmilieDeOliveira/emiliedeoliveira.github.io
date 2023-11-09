@@ -30,7 +30,7 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
           </Col>
         </Row>
 
-        <Row xs={2}>
+        <Row lg={2} md={1} sm={1} xs={1}>
           <Col>
             <Row>
               <Col>
@@ -55,18 +55,13 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
             <Row xs={2}>
               {project.srcImg.map((img: string, i: number) =>
                 <Col key={i}>
-                  <Card>
-                    <Card.Body>
-                      <Image
-                        src={img}
-                        alt={""}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }} />
-                    </Card.Body>
-                  </Card>
-
+                  <Image
+                    src={img}
+                    alt={""}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }} />
                 </Col>
               )}
             </Row>

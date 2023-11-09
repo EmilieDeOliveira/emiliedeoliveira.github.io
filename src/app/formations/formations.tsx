@@ -10,8 +10,10 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
 import { Container, Row, Col } from 'react-bootstrap';
+import useMobile from '@/app/hooks/useMobile.hook'
 
 const Formations = () => {
+  const isMobile = useMobile();
 
   return (
     <section id='formations'>
@@ -24,12 +26,12 @@ const Formations = () => {
                 flex: 0,
                 padding: 0,
               },
-            }}>
+            }} position={!isMobile ? "alternate" : "right"}>
               <TimelineItem>
-                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+                {!isMobile && <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
 
 
-                </TimelineOppositeContent>
+                </TimelineOppositeContent>}
                 <TimelineSeparator>
                   <TimelineConnector sx={{ height: '50px', color: '#E83151', backgroundColor: '#E83151' }} />
                   <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
@@ -46,10 +48,10 @@ const Formations = () => {
                 </TimelineContent>
               </TimelineItem>
               <TimelineItem>
-                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+                {!isMobile && <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
 
 
-                </TimelineOppositeContent>
+                </TimelineOppositeContent>}
                 <TimelineSeparator>
                   <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                   <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />

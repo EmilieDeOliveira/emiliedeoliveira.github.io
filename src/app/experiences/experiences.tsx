@@ -11,9 +11,11 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
 import { Container, Row, Col } from 'react-bootstrap';
 import Link from 'next/link';
+import useMobile from '@/app/hooks/useMobile.hook'
 
 
 const Experiences = () => {
+  const isMobile = useMobile();
 
   return (
     <section id='experiences'>
@@ -26,12 +28,12 @@ const Experiences = () => {
                 flex: 0,
                 padding: 0,
               },
-            }} position="alternate">
+            }} position={!isMobile ? "alternate" : "right"}>
               <TimelineItem>
-                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+                {!isMobile && <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
 
 
-                </TimelineOppositeContent>
+                </TimelineOppositeContent>}
                 <TimelineSeparator>
                   <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                   <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
@@ -53,8 +55,10 @@ const Experiences = () => {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
-                </TimelineOppositeContent>
+                {!isMobile && <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+
+
+                </TimelineOppositeContent>}
                 <TimelineSeparator>
                   <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                   <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
@@ -72,10 +76,10 @@ const Experiences = () => {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+                {!isMobile && <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
 
 
-                </TimelineOppositeContent>
+                </TimelineOppositeContent>}
                 <TimelineSeparator>
                   <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                   <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
@@ -97,10 +101,10 @@ const Experiences = () => {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
+                {!isMobile && <TimelineOppositeContent sx={{ py: '50px', px: 2 }}>
 
 
-                </TimelineOppositeContent>
+                </TimelineOppositeContent>}
                 <TimelineSeparator>
                   <TimelineConnector sx={{ height: '50px', backgroundColor: '#E83151' }} />
                   <TimelineDot sx={{ width: "50px", height: '50px', backgroundColor: '#E83151' }} />
