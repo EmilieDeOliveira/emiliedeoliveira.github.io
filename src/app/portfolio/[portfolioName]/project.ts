@@ -1,7 +1,7 @@
 export const Project = [
   {
     name: "portfolio",
-    url: "https://emiliedeoliveira.github.io/",
+    url: "https://emiliedeoliveira.fr/",
     date: "15/09/2023",
     techno: "Nextjs",
     descr: `J'ai réalisé ce portfolio pour montrer mes travaux et mes expériences.

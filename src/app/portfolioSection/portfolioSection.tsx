@@ -16,7 +16,7 @@ const PortfolioSection = () => {
         </Row>
         <Row xxl={3} xl={2} lg={2} md={1} sm={1} xs={1}>
           <Col>
-            <CardImage title='Portfolio' text='portfolio' topic='NextJS, Typescript, Bootstrap' url='https://emiliedeoliveira.github.io/' img="/assets/images/portfolioSection/portfolio.webp"></CardImage>
+            <CardImage title='Portfolio' text='portfolio' topic='NextJS, Typescript, Bootstrap' url='https://emiliedeoliveira.fr/' img="/assets/images/portfolioSection/portfolio.webp"></CardImage>
           </Col>
           <Col>
             <CardImage title='Platinium' text='Platinium' topic='NextJS, NestJS, Mobx' img={'/assets/images/portfolioSection/platinium.webp'}></CardImage>
