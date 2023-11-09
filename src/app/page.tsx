@@ -10,8 +10,8 @@ import Experiences from '@/app/experiences/experiences'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
-import CursorProvider from "./providers/CursorProvider";
-import Cursor from '@/app/components/cursor/Cursor'
+import CursorProvider from "@/app/providers/cursorProvider";
+import Cursor from '@/app/components/cursor/cursor'
 
 export default function Home() {
   const isMobile = useMobile();
