@@ -39,7 +39,7 @@ export const Project = [
     J'ai concu et développé le site e-commerce avec ReactJS, Redux et Boostrap pour le front ainsi que NodeJs et MySql pour le back. 
     Pour le tunnel de paiement j'ai utilisé Stripe. 
     J'ai réalisé le déploiement à l’aide de PM2 sur Puty et Filezila.`,
-    srcImg: ["/assets/images/msfDevice1.webp", "/assets/images/msfDevice1.webp"],
+    srcImg: ["/assets/images/lespotionsdelitha/lespotionsdelitha.webp"],
   },
   {
     name: "cartegrisecarcassonne",

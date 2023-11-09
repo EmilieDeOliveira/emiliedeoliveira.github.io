@@ -25,7 +25,7 @@ const PortfolioSection = () => {
             <CardImage title='Gobeyond Studio' text='gobeyondstudio' url="https://studio.gobeyondpartners.com/" topic='NextJS, Typescript, Lottie, Bootstrap' img={'/assets/images/portfolioSection/gobeyondpartners.webp'}></CardImage>
           </Col>
           <Col>
-            <CardImage title='Les potions de Litha' text='LesPotionsDeLitha' topic='ReactJS, NodeJS, Stripe, Photoshop' img={'/assets/images/portfolioSection/platinium.webp'}></CardImage>
+            <CardImage title='Les potions de Litha' text='LesPotionsDeLitha' topic='ReactJS, NodeJS, Stripe, Photoshop' img={'/assets/images/lespotionsdelitha/lespotionsdelitha.webp'}></CardImage>
           </Col>
           <Col>
             <CardImage title='Carte grise Carcassonne' text='CarteGriseCarcassonne' url="https://www.instagram.com/p/CGzYl7iHlTG/?img_index=1" topic='ReactJs, Photoshop' img={'/assets/images/portfolioSection/cgc.webp'}></CardImage>
