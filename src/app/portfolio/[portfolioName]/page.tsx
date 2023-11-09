@@ -7,6 +7,7 @@ import Title from '@/app/components/title/title';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
+import Cursor from '@/app/components/cursor/cursor';
 
 export default function Page({ params }: { params: { portfolioName: string } }) {
   const { portfolioName } = params;
@@ -22,6 +23,7 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
   return (
     <div className="portfolio">
       <Container>
+        <Cursor />
         <Row>
           <Col>
             <Title text={portfolioName.toUpperCase()}></Title>
