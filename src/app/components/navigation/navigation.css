@@ -1,7 +1,18 @@
 .navbar-brand {
   font-size: 2rem ! important;
   font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    cursor: none;
+  }
+  .navbar-nav .btn {
+    cursor: none;
+  }
+.navbar-nav a:hover,
+.navbar-brand:hover {
   cursor: none;
+}
 }
 
 .logo:hover {
@@ -41,8 +52,9 @@
   border-radius: 25px;
   background-color: #e8314fb4;
   border: solid #E83151 1.5px;
-  cursor: none;
 }
+
+
 
 .navbar-nav .btn:hover {
   background-color: #E83151;
@@ -53,5 +65,11 @@
 .navbar-nav a:hover,
 .navbar-brand:hover {
   color: #E83151 !important;
-  cursor: none;
+}
+
+.liens{
+  display: flex;
+  padding-top: 15px;
+    padding-bottom: 15px;
+
 }

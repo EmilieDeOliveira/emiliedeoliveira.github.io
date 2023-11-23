@@ -1,6 +1,7 @@
 .portfolio {
   min-height: 100vh;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio span,
@@ -10,4 +11,8 @@
 
 .portfolio .card {
   margin: 5px;
+}
+.projectImage{
+  border: 1px solid darkgrey;
+  margin: 10px;
 }

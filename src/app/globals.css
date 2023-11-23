@@ -20,8 +20,17 @@ body {
   font-family: 'Poppins-Regular';
 }
 
-html {
-  cursor: none;
+
+
+@media screen and (min-width: 1024px) {
+  html {
+    cursor: none;
+  }
+  a,
+  button,
+  button:not(:disabled) {
+    cursor: none !important;
+  }
 }
 
 .dot {
@@ -36,10 +45,4 @@ html {
   z-index: 9999;
   pointer-events: none;
   transition: width 0.2s, height 0.2s;
-}
-
-a,
-button,
-button:not(:disabled) {
-  cursor: none !important;
 }

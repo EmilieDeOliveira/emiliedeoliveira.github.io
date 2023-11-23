@@ -18,8 +18,6 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
   }
 
   let description = project.descr.split("\n");
-
-
   return (
     <div className="portfolio">
       <Container>
@@ -54,13 +52,14 @@ export default function Page({ params }: { params: { portfolioName: string } }) 
           <Col>
             <Row xs={2}>
               {project.srcImg.map((img: string, i: number) =>
-                <Col key={i}>
+                <Col key={i} >
                   <Image
                     src={img}
                     alt={""}
                     width={0}
                     height={0}
                     sizes="100vw"
+                    className='projectImage'
                     style={{ width: '100%', height: 'auto' }} />
                 </Col>
               )}
