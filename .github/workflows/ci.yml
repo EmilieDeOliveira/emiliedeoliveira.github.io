@@ -23,7 +23,7 @@ jobs:
       - name: Build and Publish to Github Packages Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: emiliedeoliveira/emiliedeoliveira.github.io/portfolioimage
+          name: emiliedeoliveira/portfolio/portfolioimage
           registry: ghcr.io
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.GITHUBTOKEN }}
