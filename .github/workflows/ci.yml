@@ -17,6 +17,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Install Docker
+        run: |
+          sudo apt-get update
+          sudo apt-get install docker-ce docker-ce-cli containerd.io
       - name: Check Docker installation
         run: docker --version
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
