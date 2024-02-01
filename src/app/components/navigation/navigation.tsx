@@ -56,7 +56,7 @@ const Navigation = () => {
               <div><Link aria-label='Mail lien' target="_blank" href={'mailto:emilie.laura.deoliveira@gmail.com'}><EmailIcon fontSize="large" sx={{ color: '#BCBEC0' }} /></Link></div>
             </div>}
             <a href={"/DeOliveira_Emilie_czv.pdf"} download><Button
-            >Télécharger mon CV ! <FileDownloadIcon fontSize="small" sx={{ color: 'white' }} />
+            >Télécharger mon CV <FileDownloadIcon fontSize="small" sx={{ color: 'white' }} />
             </Button></a>
           </Nav>
         </Navbar.Collapse>
