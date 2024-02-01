@@ -1,4 +1,4 @@
-# Install dependencies only when needed
+#Install dependencies only when needed
 FROM node:21-alpine AS deps
 
 WORKDIR /app
@@ -7,7 +7,7 @@ COPY package.json ./
 
 RUN npm install
 
-# Rebuild the source code only when needed
+#Rebuild the source code only when needed
 FROM node:21-alpine AS builder
 
 WORKDIR /app
@@ -18,7 +18,7 @@ COPY . .
 
 RUN npx next build
 
-# Production image, copy all the files and run next
+#Production image, copy all the files and run next
 FROM node:21-alpine AS runner
 
 WORKDIR /app
